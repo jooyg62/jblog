@@ -10,7 +10,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>springboot-jblog</artifactId>
+	<artifactId>jblog5</artifactId>
 	
 	<properties>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -64,7 +64,6 @@
 		<dependency>
 			<groupId>org.mariadb.jdbc</groupId>
 			<artifactId>mariadb-java-client</artifactId>
-			<!-- 부모꺼 버전을 사용 -->
 		</dependency>
 		
 		<!-- JSTL -->
@@ -73,7 +72,7 @@
 			<artifactId>jstl</artifactId>
 		</dependency>
 		<dependency>
-			<!-- jsp파일을 서블릿으로 변환 -->
+			<!-- jsp?�일???�블릿으�?변??-->
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
 		</dependency>
